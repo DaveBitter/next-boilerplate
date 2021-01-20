@@ -3,7 +3,7 @@ import React from 'react';
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 
 // Utils
-
+import meta from '../meta.config.js';
 // Resources
 
 // Components
@@ -11,7 +11,7 @@ import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 // Component
 class Document extends NextDocument {
     render() {
-        return <Html lang='en'>
+        return <Html lang={meta.locale}>
             <Head>
             </Head>
             <body>

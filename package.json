@@ -1,18 +1,27 @@
 {
   "name": "next-boilerplate",
   "version": "1.0.0",
-  "description": "Portfolio",
-  "private": true,
+  "description": "An opinionated Next.js boilerplate",
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaveBitter/portfolio.git"
+    "url": "git+https://github.com/DaveBitter/next-boilerplate.git"
   },
   "keywords": [
-    "next boilerplate",
-    "react",
+    "nextjs",
     "next",
-    "typescript",
-    "graphql"
+    "react",
+    "reactjs",
+    "boilerplate",
+    "stylelint",
+    "eslint",
+    "enzyme",
+    "jest",
+    "scss",
+    "storybook",
+    "husky",
+    "boilerplate",
+    "typescript"
   ],
   "author": "Dave Bitter <daveybitter@gmail.com> (https://www.davebitter.com/)",
   "license": "MIT",

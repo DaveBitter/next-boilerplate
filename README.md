@@ -23,6 +23,13 @@ Besides the development script, there are many more scripts set up:
 * `eslint` - Runs ESLint for all TypeScript files
 * `stylelint` - Runs Stylelint for all SCSS files
 
+### Configuration
+#### Meta information (SEO)
+Boilerplate loads some meta information in the head for SEO and social media platforms. You can easily alter the meta information in `meta.config.js` to your liking.
+
+#### Progressive Web App (PWA)
+By default, Next Boilerplate loads a service worker (`public/sw.js`) and a manifest file (`public/manifest.json`). The PWA caches all requests to be used offline and uses the manifest to meet the minimum requirements of a PWA to be installable. You can alter these files to your liking.
+
 ### Tech stack
 #### Next.js
 Next Boilerplate uses [Next.js](https://nextjs.org/)  to
