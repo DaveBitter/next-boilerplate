@@ -1,0 +1,13 @@
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    padding: $spacing-sml;
+    margin-bottom: $spacing-med;
+    box-shadow: $morphism-dark;
+    border-radius: $border-radius-lrg;
+    background: $gradient-dark;
+
+    @include mq($mq-tab--sml) {
+        padding: $spacing-med $spacing-lrg;
+    }
+}

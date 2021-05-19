@@ -9,12 +9,15 @@ module.exports = {
 
         config.module.rules.push({
             test: /\.md$/,
-            loaders: [
+            use: [
                 'json-loader',
                 'front-matter-loader',
             ],
         });
 
         return config;
+    },
+    future: {
+        webpack5: true
     }
 };
